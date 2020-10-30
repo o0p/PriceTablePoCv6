@@ -79,3 +79,58 @@ border-bottom: none;
     max-width: 100%;
     margin-bottom: 25px;
 }
+
+.pricing-headr {
+    color: #888;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.pricing-features {
+    margin:15px 0 25px;
+    color: #016ff9;
+}
+
+.pricing-features-item {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    border-top: 1px solid #e1f1ff;
+    padding: 15px;
+    line-height: 1.5;
+}
+.pricing-features-item:last-child{
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-price {
+    color: #016ff9;
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.pricing-button {
+    border: 1px solid  #1dd1ff;
+    border-radius: 10px;
+    color: #348efe;
+    display: inline-block;
+    padding: 15px 34px;
+    text-decoration: none;
+    margin:25px 0;
+    transition: background-color 120ms ease-in-out;
+}
+.pricing-button:focus, .pricing-button:hover {
+    background-color: #e1f1ff;
+}
+
+.pricing-button.is-featured {
+    background-color: #48aaff;
+    color: white;
+}
+
+.pricing-button.is-featured:focus, .pricing-button.is-featured:hover {
+    background-color: #269aff;
+}
+
+@media()
